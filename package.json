@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "bash dev.sh && vite --host",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.7.2",
     "cz-git": "^1.9.4",
     "element-plus": "^2.7.7",
     "vue": "^3.4.21",
